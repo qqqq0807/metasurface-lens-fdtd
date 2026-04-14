@@ -1,0 +1,15 @@
+// Lumerical script for phase library generation based on SiO2 metasurface unit cell
+
+// Simulation parameters
+wavelength = 550e-9; // Wavelength in meters
+period = 400e-9;    // Period in meters
+height = 1820e-9;   // Height in meters
+xy_dimensions = 400e-9; // XY dimensions in meters
+
+// Function to generate phase library
+function generatePhaseLibrary() {
+    // Your code for phase library generation goes here
+}
+
+// Call the function to generate phase library
+generatePhaseLibrary();
