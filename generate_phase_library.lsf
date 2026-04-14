@@ -1,0 +1,14 @@
+# Lumerical FDTD Phase Library Generation Script
+
+# This script generates a phase library for SiO2 metasurface unit cells.
+
+set phaseLibrary = new PhaseLibrary();
+
+# Define the parameters for the SiO2 metasurface unit cell
+layerThickness = 0.5;  // thickness of the SiO2 layer in microns
+wavelength = 1.55;      // design wavelength in microns
+
+generatePhase(library, layerThickness, wavelength);
+
+# Save the generated phase library
+savePhaseLibrary("SiO2_metasurface_phase_library.lsf");
